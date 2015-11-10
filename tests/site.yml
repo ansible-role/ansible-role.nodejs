@@ -2,6 +2,4 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - role: ansible-role-nodejs
-      role_nodejs:
-        nvm_destination: "/opt/nvm"
+    - { role: ansible-role-nodejs, role_nodejs_nvm_destination: "/opt/nvm" }

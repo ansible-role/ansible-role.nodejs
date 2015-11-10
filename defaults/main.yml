@@ -1,6 +1,5 @@
 ---
-role_nodejs:
-  nvm_version: v0.29.0
-  nvm_destination: "~/.nvm"
-  nvm_user: "{{ ansible_ssh_user }}"
-  node_version: 4.2.1
+role_nodejs_nvm_version: v0.29.0
+role_nodejs_nvm_destination: "~/.nvm"
+role_nodejs_nvm_user: "{{ ansible_ssh_user }}"
+role_nodejs_node_version: 4.2.1
