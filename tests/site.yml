@@ -3,4 +3,4 @@
   remote_user: 
     root
   roles:
-    - { role: ansible-role-nodejs, role_nodejs_nvm_destination: "~/nvm-for-test" }
+    - role: ansible-role-nodejs
