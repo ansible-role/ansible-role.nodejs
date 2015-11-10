@@ -10,7 +10,7 @@ before_install:
 
 install:
   # Install Ansible.
-  - pip install ansible=1.9.1
+  - pip install ansible==1.9.1
 
 script:
   - "cd tests"
