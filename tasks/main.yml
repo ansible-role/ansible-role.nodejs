@@ -1,7 +1,10 @@
 ---
 - name: Install NVM dependencies
   apt:
-    pkg={{ item }} state=present update_cache=yes cache_valid_time=3600
+    pkg={{ item }}
+    state=present
+    update_cache=yes
+    cache_valid_time=3600
   with_items:
     - git
     - curl
@@ -14,7 +17,9 @@
 
 - name: Install NVM
   git:
-    repo=https://github.com/creationix/nvm.git dest={{ role_nodejs_nvm_destination }} version={{ role_nodejs_nvm_version }}
+    repo=https://github.com/creationix/nvm.git
+    dest={{ role_nodejs_nvm_destination }}
+    version={{ role_nodejs_nvm_version }}
   become:
     yes
   become_user:
