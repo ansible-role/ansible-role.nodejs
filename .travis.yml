@@ -31,7 +31,6 @@ script:
 
   # Make sure Node.js is installed.
   - >
-    source ~/.profile
-    && which node
+    sudo -i which node
     && (echo 'Node.js is installed' && exit 0)
     || (echo 'Node.js is not installed' && exit 1)
