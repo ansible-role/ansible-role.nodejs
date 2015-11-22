@@ -46,7 +46,7 @@ role_nodejs_version: 4.2.1
       npm:
          name=gulp
          global=yes
-         executable="{{ ROLE_NODEJS_EXCUTABLE_PATH }}"
+         executable="{{ ROLE_NODEJS_EXCUTABLE_PATH }}/npm"
       become:
          yes
       become_user:
