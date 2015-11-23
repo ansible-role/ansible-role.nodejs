@@ -32,6 +32,8 @@ galaxy_info:
     - packaging
     - web
     - nodejs
+    - node
     - nvm
     - npm
+    - gulpjs
   dependencies: []
