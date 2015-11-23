@@ -31,4 +31,7 @@ galaxy_info:
     - development
     - packaging
     - web
+    - nodejs
+    - nvm
+    - npm
   dependencies: []
