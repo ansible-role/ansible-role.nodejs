@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/w3aran/ansible-role-nodejs.svg?branch=master)](https://travis-ci.org/w3aran/ansible-role-nodejs) 
 [![Ansible Role : Node.js](https://img.shields.io/badge/ansible--galaxy-role-blue.svg)](https://galaxy.ansible.com/detail#/role/6138)
 
-Node.js Ansible Role helps to install Node.js using Node Version Manager(NVM).
+An Ansible role that installs Node.js using Node Version Manager(NVM) on Ubuntu/ Debian.
 
 ### Role Variables
 
@@ -71,3 +71,7 @@ role_nodejs_version: 4.2.1
       environment:
         PATH: "{{ ROLE_NODEJS_ENVIRONMENT_PATH }}"
 ```
+
+### License
+
+MIT
