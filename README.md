@@ -1,9 +1,9 @@
-# NodeJS Ansible Role
+# Node.js Ansible Role
 
 [![Build Status](https://travis-ci.org/w3aran/ansible-role-nodejs.svg?branch=master)](https://travis-ci.org/w3aran/ansible-role-nodejs) 
 [![Ansible Role : Node.js](https://img.shields.io/badge/ansible--galaxy-role-blue.svg)](https://galaxy.ansible.com/detail#/role/6138)
 
-NodeJS Ansible Role helps to install Node.js via NVM.
+Node.js Ansible Role helps to install Node.js using Node Version Manager(NVM).
 
 ### Role Variables
 
