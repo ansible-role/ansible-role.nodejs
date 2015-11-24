@@ -1,4 +1,4 @@
 ---
 - hosts: all
   roles:
-    - role: ansible-role-nodejs
+    - role: ansible-role.nodejs
