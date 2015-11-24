@@ -1,7 +1,7 @@
 # Node.js Ansible Role
 
-[![Build Status](https://travis-ci.org/w3aran/ansible-role-nodejs.svg?branch=master)](https://travis-ci.org/w3aran/ansible-role-nodejs)
-[![Ansible Role : Node.js](https://img.shields.io/badge/ansible--galaxy-role-blue.svg)](https://galaxy.ansible.com/detail#/role/6138)
+[![Build Status](https://travis-ci.org/ansible-role/ansible-role.nodejs.svg)](https://travis-ci.org/ansible-role/ansible-role.nodejs) 
+[![Ansible Role : Node.js](https://img.shields.io/badge/ansible--galaxy-role-blue.svg)](https://galaxy.ansible.com/detail#/role/6171)
 
 An Ansible role that installs Node.js using Node Version Manager(NVM) on Ubuntu/ Debian.
 
