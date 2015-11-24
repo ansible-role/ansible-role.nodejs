@@ -26,6 +26,15 @@ role_nodejs_version: 4.2.1
     - ansible-role-nodejs
 ```
 
+**NOTE:** Role name should be same as role directory name. If you imported from Ansible Galaxy, by default, it would be ```w3aran.nodejs``` instead of ```ansible-role-nodejs``` unless you change the name.
+
+```
+- hosts: all
+  roles:
+    - w3aran.nodejs
+```
+
+
 #### For different Node.js version:
 
 ```
