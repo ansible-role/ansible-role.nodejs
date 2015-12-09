@@ -28,4 +28,4 @@ galaxy_info:
     - nvm
     - npm
     - gulpjs
-  dependencies: []
+dependencies: []
